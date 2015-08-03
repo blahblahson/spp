@@ -1,0 +1,19 @@
+SPP is a cheap-o proxy for Phantasy Star Online (Game Cube only, Episodes 1&2
+and 3). It's simply bundled because it can be - I wrote it to analyse packets
+that server(s) send when writing lobbylurk.
+
+Execution
+*********
+
+To run it, use the syntax:
+
+    spp <server IP> <port>
+
+SPP will run on the local machine at <port>, and will also connect to the
+server on it.
+
+DNS Server
+**********
+
+A DNS server is provided (written by Kohle) with SPP which should run while SPP
+is running so the Game Cube can connect. It can be found in ../dnsserver.
